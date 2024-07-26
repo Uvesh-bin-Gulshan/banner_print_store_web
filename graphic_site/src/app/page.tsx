@@ -2,20 +2,23 @@ import Image from "next/image";
 import Header from "./_component/Header";
 import Footer from "./_component/Footer";
 import Hero from "./_component/Hero";
-import Category from "./_component/Category";
+import Category from "./_component/CategoryLeft";
 import Count from "./_component/Count";
 import Preview from "./_component/Preview";
 import SocialMedia from "./_component/SocialMedia";
+import CategoryCard1 from "./category-detail.tsx/CategoryCard1";
+import CategoryCard2 from "./category-detail.tsx/CategoryCard2";
+import CategoryCard3 from "./category-detail.tsx/CategoryCard3";
 
 export default function Home() {
   return (
   <>
   <Header/>
   <Hero/>
-  <Category/>
+  <CategoryCard1/>
+  <CategoryCard2/>
+  <CategoryCard3/>
   <Preview/>
-  <Count/>
-  <SocialMedia/>
   <Footer/>
 
   </>
