@@ -10,6 +10,7 @@ import CategoryCard1 from "./category-detail.tsx/CategoryCard1";
 import CategoryCard2 from "./category-detail.tsx/CategoryCard2";
 import CategoryCard3 from "./category-detail.tsx/CategoryCard3";
 
+
 export default function Home() {
   return (
   <>
