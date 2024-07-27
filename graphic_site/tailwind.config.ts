@@ -18,6 +18,7 @@ const config: Config = {
       },
       fontFamily: {
         'alfa-slab-one': ['"Alfa Slab One"', 'serif'],
+        'gandalfel': ['GandalfEL', 'serif'],
       },
     },
     fontWeight: {

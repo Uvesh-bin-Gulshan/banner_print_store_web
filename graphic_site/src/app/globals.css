@@ -4,8 +4,15 @@
 
 /* styles/globals.css */
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
-
+@layer base {
+  .font-noto-serif {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "wdth" 100;
+  }
+}
 body {
     --sb-track-color: #ffffff00;
     --sb-thumb-color: #7d7d7d;
@@ -45,5 +52,17 @@ body {
     height: 2.5em; /* Adjust based on the height of your animated text */
     display: flex;
     align-items: center;
+  }
+  
+  @font-face {
+    font-family: 'GandalfEL';
+    src: url('/fonts/GandalfEL-Medium.ttf') format('truetype');
+    font-style: normal;
+  }
+  
+  @layer base {
+    .font-gandalfel {
+      font-family: 'GandalfEL', serif;
+    }
   }
   
