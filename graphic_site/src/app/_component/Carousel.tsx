@@ -1,8 +1,7 @@
-import React from 'react';
-import "slick-carousel/slick/slick.css";
-import Slider from 'react-slick';
 
-import "slick-carousel/slick/slick-theme.css";
+"use client"
+import React, { useState, useEffect } from 'react';
+import '../globals.css'; // Ensure this path is correct
 
 const images = [
   "https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp",
@@ -21,28 +20,40 @@ const images = [
   "https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp"
 ];
 
-export function Carousel() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    centerMode: true,
-    centerPadding: "0",
-  };
+const Carousel = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const visibleSlides = 3; // Number of images to show at a time
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 2000); // Change image every 2 seconds
+    return () => clearInterval(interval);
+  }, []);
 
   return (
-    <div className="max-w-full  p-12">
-      <Slider {...settings} className="carousel carousel-center bg-neutral rounded-box space-x-4">
+    <div className="carousel-container">
+      <div 
+        className="carousel-inner" 
+        style={{ 
+          transform: `translateX(${-currentIndex * (100 / visibleSlides)}%)`,
+          width: `${images.length * (10 / visibleSlides)}%`
+        }}
+      >
         {images.map((image, index) => (
-          <div key={index} className="carousel-item">
-            <img src={image} className="rounded-box" alt={`carousel-${index}`} />
+          <div 
+            key={index} 
+            className="carousel-item" 
+            style={{ 
+              width: `${100 / visibleSlides}%` 
+            }}
+          >
+            <img src={image} className="carousel-image" alt={`carousel-${index}`} />
           </div>
         ))}
-      </Slider>
+      </div>
     </div>
   );
-}
+};
+
+export default Carousel;
