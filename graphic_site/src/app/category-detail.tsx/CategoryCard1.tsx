@@ -14,27 +14,27 @@ setHoverId(id)
 
   const cardDetail =[{
     id:'1',
-    image:'/media/graphic.jpg',
+    image:'/media/graphic_design.png',
     title:'Graphic Design',
-    description:'askdjkjdkslfjfsfd',
+    description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at ex eos possimus dolorem et quibusdam error veniam vero optio ad, cumque iure, quidem maiores amet illum rem autem vel!',
     
 
   },
 
   {
     id:'2',
-    image:'/media/graphic.jpg',
+    image:'/media/flex_printing.png',
     title:'Graphic rdtgdr',
-    description:'frsedgtf',
+    description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at ex eos possimus dolorem et quibusdam error veniam vero optio ad, cumque iure, quidem maiores amet illum rem autem vel!',
     
 
   },
   {
     id:'3',
 
-    image:'/media/graphic.jpg',
+    image:'/media/offset_printing.png',
     title:'Graphic tftf',
-    description:'askdjkjdkslfjfsfd',
+    description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at ex eos possimus dolorem et quibusdam error veniam vero optio ad, cumque iure, quidem maiores amet illum rem autem vel!',
     
 
   },
@@ -49,14 +49,14 @@ setHoverId(id)
   {
     id:'2',
 
-    title:'Graphic Design',
+    title:'Flex Banner',
     
 
   },
   {
     id:'3',
 
-    title:'Graphic Design',
+    title:'Offset Printing',
     
 
   },
@@ -67,7 +67,6 @@ setHoverId(id)
 <>
 
 <CategoryLeft cardData={cardData} cardDetail={cardDetail}/>
-
 
 </>
   )

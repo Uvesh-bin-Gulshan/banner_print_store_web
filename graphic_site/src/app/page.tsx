@@ -9,6 +9,7 @@ import SocialMedia from "./_component/SocialMedia";
 import CategoryCard1 from "./category-detail.tsx/CategoryCard1";
 import CategoryCard2 from "./category-detail.tsx/CategoryCard2";
 import CategoryCard3 from "./category-detail.tsx/CategoryCard3";
+import { Carousel } from "./_component/carousel";
 
 
 export default function Home() {
@@ -19,7 +20,8 @@ export default function Home() {
   <CategoryCard1/>
   <CategoryCard2/>
   <CategoryCard3/>
-  <Preview/>
+
+  <Carousel/>
   <Footer/>
 
   </>
