@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import { IoLogoWhatsapp } from 'react-icons/io'
 import { MdCall } from 'react-icons/md'
@@ -11,9 +12,13 @@ const Header = () => {
   flex-col md:flex-row items-center">
     <nav className="flex  justify-center font-semibold uppercase    flex-wrap items-center 
     text-black md:ml-auto">
-      <a className="mr-5 hover:text-gray-900">Our Works</a>
-      <a className="mr-5 hover:text-gray-900">About</a>
-      <a className=" hover:text-gray-900">Contact</a>
+      <Link className="mr-5 hover:text-gray-900" href="../our-work">
+      Our Works
+      </Link>
+      <Link className="mr-5 hover:text-gray-900" href="../about-contact-us">
+        About
+      </Link>
+     
     </nav>
     {/* <a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
       {/* <svg xmlns="media/logo.png" fill="blue" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-10 h-10 text-white p-2 bg-orange-500 rounded-none" viewBox="0 0 24 24">
