@@ -28,12 +28,12 @@ const CategoryLeft = ({ cardData, cardDetail, className }:any) => {
           {cardDetail.map((detail:any) => (
             <div key={detail.id}>
               {hoverId === detail.id && (
-                <div className='flex h-full mx-4 items-center justify-between'>
+                <div className='flex h-full mx-8 items-center justify-between'>
                   <div className='h-full w-[50%]'>
                     <h2 className='text-xl font-bold mb-4'>{detail.title}</h2>
                     <p className='text-gray-700 mb-4'>{detail.description}</p>
                   </div>
-                  <div className='relative h-full w-[50%] flex justify-center items-center'>
+                  <div className='relative h-full w-[50%] flex justify-center items-center '>
                     <img
                       src={detail.image}
                       alt={detail.title}

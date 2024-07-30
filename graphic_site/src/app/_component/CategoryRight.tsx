@@ -18,15 +18,16 @@ const CategoryRight = ({ cardData, cardDetail, className }: any) => {
             <div key={detail.id}>
               {hoverId === detail.id && (
                 <div className='flex h-full mx-4 items-center justify-between'>
-                  <div className='relative h-full w-[50%] flex justify-center items-center'>
+                  <div className='relative h-full w-[50%] 
+                  flex justify-center  items-center'>
                     <img
                       src={detail.image}
                       alt={detail.title}
-                      className='w-64 h-56 object-cover rounded-lg shadow-md transition-transform transform hover:scale-105'
+                      className='w-64 h-56 object-cover  rounded-lg shadow-md transition-transform transform hover:scale-105'
                     />
                     
                   </div>
-                  <div className='h-full w-[50%]'>
+                  <div className='h-full ml-4 w-[50%]'>
                     <h2 className='text-xl font-bold mb-4'>{detail.title}</h2>
                     <p className='text-gray-700 mb-4'>{detail.description}</p>
                   </div>

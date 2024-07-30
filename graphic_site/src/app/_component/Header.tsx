@@ -10,12 +10,12 @@ const Header = () => {
 <header className="text-gray-600 bg-slate-100  body-font">
   <div className="container  flex flex-wrap p-1.5 
   flex-col md:flex-row items-center">
-    <nav className="flex  justify-center font-semibold uppercase    flex-wrap items-center 
+    <nav className="flex  justify-center font-light uppercase    flex-wrap items-center 
     text-black md:ml-auto">
-      <Link className="mr-5 hover:text-gray-900" href="../our-work">
+      <Link className="mr-10 hover:text-gray-900" href="../our-work">
       Our Works
       </Link>
-      <Link className="mr-5 hover:text-gray-900" href="../about-contact-us">
+      <Link className=" hover:text-gray-900" href="../about-contact-us">
         About
       </Link>
      

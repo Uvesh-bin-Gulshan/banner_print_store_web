@@ -12,7 +12,7 @@ interface CardImageProps {
 const CardImage: React.FC<CardImageProps> = ({ src, width, height, className = "", alt }) => {
   return (
     <Image
-      className={`text-white border-1 bg-green-200 border-white border shadow-xl shadow-white ${className}`}
+      className={`text-white  bg-green-200  shadow-xl shadow-gray-400 ${className}`}
       src={src}
       width={width}
       height={height}
