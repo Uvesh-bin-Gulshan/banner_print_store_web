@@ -1,8 +1,9 @@
 import React from 'react'
 import AboutIntro from './AboutIntro'
-import ContactUs from './ContactUs'
+import ContactUs from '../_component/ContactUs'
 import Header from '../_component/Header'
 import Footer from '../_component/Footer'
+import Contact from './Contact'
 
 const  Page= () => {
   return (
@@ -10,7 +11,7 @@ const  Page= () => {
       <Header/>
 
     <AboutIntro/>
-    <ContactUs/>
+    <Contact/>
     <Footer/>
 
     </>
