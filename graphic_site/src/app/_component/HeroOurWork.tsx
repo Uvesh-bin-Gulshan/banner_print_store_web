@@ -37,6 +37,7 @@ const HeroOurWork = () => {
     
 
     <ImageGrid
+    key={index}
     src={images.src}
     alt={images.alt}
     width={550}
