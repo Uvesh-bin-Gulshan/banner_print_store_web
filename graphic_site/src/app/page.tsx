@@ -24,7 +24,6 @@ export default function Home() {
   <CategoryCard2/>
   <CategoryCard3/>
   <HeroOurWork/>
-<Contact/>
   <Footer/>
 
   </>
