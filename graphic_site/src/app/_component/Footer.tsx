@@ -8,7 +8,8 @@ const Footer = () => {
   <div className="container text-white px-5 py-14 justify-between flex
    mx-auto bg-blue-900 flex md:items-center
     lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-    <div className="w-[40%] flex-shrink-0 md:mx-0 mx-auto text-center md:text-center">
+    <div className="w-[40%] flex-shrink-0 md:mx-0 mx-auto
+     text-center md:text-center">
       <a className="flex title-font font-medium items-center  justify-center text-white">
         <Image
           className={`text-white ml-4    shadow-gray-400 `}

@@ -10,16 +10,16 @@ const CategoryLeft = ({ cardData, cardDetail, className }:any) => {
 
   return (
     <>
-      <section className={`flex m-12 my-32 justify-between gap-8 ${className}`}>
-        <div className='bg-white rounded-xl py-6 px-12 grid 
-        grid-cols-3 items-center  shadow-xl gap-6'>
+      <section className={`flex m-8 my-28 justify-between gap-8 ${className}`}>
+        <div className=' rounded-xl py-3 px-8 grid 
+        grid-cols-3 items-center   gap-6'>
           {cardData.map((data:any) => (
             <div
               key={data.id}
               onMouseEnter={() => handleHover(data.id)}
-              className="bg-gradient-to-r from-gray-300 to-gray-700 text-white px-4 py-6 w-full h-40 flex items-center justify-center rounded-lg transition-transform transform hover:scale-105 shadow-md"
+              className="bg-gradient-to-bl from-blue-900 via-blue-700 to-blue-400 text-white px-4 py-6 w-full h-40 flex items-center justify-center rounded-lg transition-transform transform hover:scale-105 shadow-md"
             >
-              <h3 className='text-xl font-semibold'>{data.title}</h3>
+              <h3 className='text-xl uppercase font-semibold'>{data.title}</h3>
             </div>
           ))}
         </div>
@@ -28,10 +28,10 @@ const CategoryLeft = ({ cardData, cardDetail, className }:any) => {
           {cardDetail.map((detail:any) => (
             <div key={detail.id}>
               {hoverId === detail.id && (
-                <div className='flex h-full mx-8 items-center justify-between'>
-                  <div className='h-full w-[50%]'>
+                <div className='flex h-full mx-10 items-center justify-between'>
+                  <div className='h-full w-[60%]'>
                     <h2 className='text-xl font-bold mb-4'>{detail.title}</h2>
-                    <p className='text-gray-700 mb-4'>{detail.description}</p>
+                    <p className='text-gray-700 text-left mb-4'>{detail.description}</p>
                   </div>
                   <div className='relative h-full w-[50%] flex justify-center items-center '>
                     <img

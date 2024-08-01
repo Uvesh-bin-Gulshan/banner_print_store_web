@@ -8,10 +8,13 @@ const Header = () => {
     <>
 
 <header className="text-gray-600 bg-slate-100  body-font">
-  <div className="container  flex flex-wrap p-1.5 
+  <div className="container  flex flex-wrap p-3
   flex-col md:flex-row items-center">
     <nav className="flex  justify-center font-light uppercase    flex-wrap items-center 
     text-black md:ml-auto">
+      <Link className="mr-10 hover:text-gray-900 active" href="/">
+      Home
+      </Link>
       <Link className="mr-10 hover:text-gray-900" href="../our-work">
       Our Works
       </Link>

@@ -8,7 +8,8 @@ const Hero = () => {
   return (
     <>
       <div className="hero min-h-screen w-full bg-base-200">
-        <div className="bg-gradient-to-tr from-black via-gray-700 to-gray-500 flex justify-between w-full h-full text-white text-shadow-xl py-1 pl-10">
+        <div className="bg-gray-300 via-blue-700  to-blue-300 flex
+         justify-between w-full h-full text-[#FAAF22] text-shadow-xl py-1 pl-10">
           <div className="my-12 mx-2 w-full h-full">
             <div className="fixed-height  mt-24">
               <TypeAnimation
@@ -25,16 +26,16 @@ const Hero = () => {
                 repeat={Infinity}
                 style={{  display: "inline-block",whiteSpace: "pre-wrap" }}
 
-                className="text-[70px] font-gandalfel  "
+                className="text-[100px] font-gandalfel  "
               />
             </div>
-            <div className="fixed-height mt-48 ">
+            <div className="fixed-height mt-56 ">
               <TypeAnimation
                 sequence={[
-                  "Crafting\nCreativity\nDesigning\nTomorrow",
+                  "Crafting\nDesigning\nCreativite\nTomorrow",
                   
                   2000, 
-                  "Customer\nSatisfaction\nIs Our\nPrime Concern", 
+                  "Customer Satisfaction\nIs Our Prime Concern", 
                   2000,
                   "", 
                   1000, 
@@ -43,8 +44,8 @@ const Hero = () => {
                 cursor={false}
                 repeat={Infinity}
                 style={{  display: "inline-block",whiteSpace: "pre-wrap" }}
-                className=" mt-2 text-left py-4
-                text-gray-300/95 uppercase font-extrabold w-full  text-4xl"
+                className=" mt-4 text-left py-8
+                text-[#1E3A8A] uppercase font-extrabold w-full  text-6xl"
               />
             </div>
           </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import WorkSection from '../_component/WorkSection'
 
-const GraphicAndFlex = () => {
+const OffSetPrinting = () => {
   
   const cardData = [
     {
@@ -33,7 +33,7 @@ const GraphicAndFlex = () => {
 <>
 
 <WorkSection className="bg-gray-500"
-      title="Pitchfork Kickstarter Taxidermy"
+      title="Offset Printing"
       description="Whatever cardigan tote bassdgdfg tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag."
       cardData={cardData}
     />
@@ -43,4 +43,4 @@ const GraphicAndFlex = () => {
 )
 }
 
-export default GraphicAndFlex
+export default OffSetPrinting

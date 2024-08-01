@@ -1,11 +1,12 @@
 import React from 'react'
 import WorkSection from '../_component/WorkSection'
 
-const FileAndBag = () => {
+const GraphicDesign = () => {
   
   const cardData = [
     {
-      image: 'https://dummyimage.com/720x400',
+      
+      image: '/media/graphic_design.png',
       subtitle: 'SUBTITLE',
       title: 'Chichen Itza',
       description: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.',
@@ -32,9 +33,9 @@ const FileAndBag = () => {
   return (
 <>
 
-<WorkSection className="bg-gray-500"
-      title="All Kind Of File And Bag Printing"
-      description="Whatever cardigan tote bassdgdfg tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag."
+<WorkSection className="bg-[#1E3A8A]"
+      title="Graphic Design"
+      description="Whatever cardigan tote b brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag."
       cardData={cardData}
     />
 </>
@@ -43,4 +44,4 @@ const FileAndBag = () => {
 )
 }
 
-export default FileAndBag
+export default GraphicDesign

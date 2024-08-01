@@ -1,7 +1,7 @@
 import React from 'react'
 import WorkSection from '../_component/WorkSection'
 
-const FileAndBag = () => {
+const Bill = () => {
   
   const cardData = [
     {
@@ -33,7 +33,7 @@ const FileAndBag = () => {
 <>
 
 <WorkSection className="bg-gray-500"
-      title="All Kind Of File And Bag Printing"
+      title="Bill"
       description="Whatever cardigan tote bassdgdfg tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag."
       cardData={cardData}
     />
@@ -43,4 +43,4 @@ const FileAndBag = () => {
 )
 }
 
-export default FileAndBag
+export default Bill

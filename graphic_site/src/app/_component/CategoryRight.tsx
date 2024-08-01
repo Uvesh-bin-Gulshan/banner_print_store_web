@@ -11,7 +11,7 @@ const CategoryRight = ({ cardData, cardDetail, className }: any) => {
   };
   return (
     <>
-      <section className={`flex m-12 my-32 justify-between gap-8 ${className}`}>
+      <section className={`flex m-8 my-28 justify-between gap-8 ${className}`}>
 
         <div className='w-[70%] h-full bg-white rounded-xl p-6'>
           {cardDetail.map((detail:any) => (
@@ -23,7 +23,8 @@ const CategoryRight = ({ cardData, cardDetail, className }: any) => {
                     <img
                       src={detail.image}
                       alt={detail.title}
-                      className='w-64 h-56 object-cover  rounded-lg shadow-md transition-transform transform hover:scale-105'
+                      className='w-64 h-56 object-cover  
+                      rounded-lg shadow-md transition-transform transform hover:scale-105'
                     />
                     
                   </div>
@@ -36,15 +37,15 @@ const CategoryRight = ({ cardData, cardDetail, className }: any) => {
             </div>
           ))}
         </div>
-        <div className='bg-white rounded-xl py-6 px-12 grid 
-        grid-cols-3 items-center  shadow-xl gap-6'>
+        <div className='bg-white rounded-xl py-3 px-6 grid 
+        grid-cols-3 items-center  gap-6'>
           {cardData.map((data:any) => (
             <div
               key={data.id}
               onMouseEnter={() => handleHover(data.id)}
-              className="bg-gradient-to-r from-gray-300 to-gray-700 text-white px-4 py-6 w-full h-40 flex items-center justify-center rounded-lg transition-transform transform hover:scale-105 shadow-md"
+              className="bg-gradient-to-bl from-[#FAAF26] via-[#FAAF22]/90 to-[#FAAF22]/40 text-white px-4 py-6 w-full h-40 flex items-center justify-center rounded-lg transition-transform transform hover:scale-105 shadow-md"
             >
-              <h3 className='text-xl font-semibold'>{data.title}</h3>
+              <h3 className='text-xl uppercase font-semibold'>{data.title}</h3>
             </div>
           ))}
         </div>
