@@ -5,47 +5,32 @@ import { MdCall } from 'react-icons/md'
 
 const Header = () => {
   return (
-    <>
-
-<header className="text-gray-600 bg-slate-100  body-font">
-  <div className="container  flex flex-wrap p-3
-  flex-col md:flex-row items-center">
-    <nav className="flex  justify-center font-light uppercase    flex-wrap items-center 
-    text-black md:ml-auto">
-      <Link className="mr-10 hover:text-gray-900 active" href="/">
-      Home
-      </Link>
-      <Link className="mr-10 hover:text-gray-900" href="../our-work">
-      Our Works
-      </Link>
-      <Link className=" hover:text-gray-900" href="../about-contact-us">
-        About
-      </Link>
-     
-    </nav>
-    {/* <a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
-      {/* <svg xmlns="media/logo.png" fill="blue" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-10 h-10 text-white p-2 bg-orange-500 rounded-none" viewBox="0 0 24 24">
-        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-      </svg> */}
-      {/* <img src="media/logo.png" className='w-8 h-8' /> */}
-      {/* <span className="ml-3 text-xl">Faisal Graphics</span> */}
-    
-    
-    <div className="lg:w-2/5 inline-flex lg:justify-end   text-black lg:ml-0">
-    <div className="inline-flex  items-center ">
-      <IoLogoWhatsapp className=' text-xl hover:text-green-500    mr-3'/>
+    <header className="text-gray-600 bg-slate-100 body-font">
+      <div className="container justify-between 
+      flex py-2 flex-col md:flex-row items-center">
+        <nav className="flex text-xs md:text-xl  justify-center 
+        font-light uppercase px-2 items-center text-black md:ml-auto">
+          <Link className="md:mr-10 ml-2  hover:text-gray-900" href="/">
+            Home
+          </Link>
+          <Link className="md:mr-10 ml-2 hover:text-gray-900" href="../our-work">
+            Our Works
+          </Link>
+          <Link className="hover:text-gray-900 ml-2" href="../about-contact-us">
+            About
+          </Link>
+        <div className="flex m-4 lg:w-2/5  md:w-2/5 justify-end text-black lg:ml-0 mt-4 md:mt-0">
+          <div className="inline-flex ml-items-center">
+            <IoLogoWhatsapp className='text-xl hover:text-green-500 mr-3'/>
+          </div>
+          <div className="inline-flex items-center hover:text-green-500 mr-5">
+            <MdCall className='text-xl' />
+          </div>
+        </div>
+        </nav>
 
       </div>
-      <div className="inline-flex items-center hover:text-green-500 mr-5">
-      <MdCall className='text-xl' />
-
-      </div>
-    
-
-    </div>
-  </div>
-</header>
-    </>
+    </header>
   )
 }
 
