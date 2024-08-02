@@ -6,7 +6,7 @@ import Link from 'next/link'
 const HomeOurWork = () => {
 
 
-    const images=[
+    const smallimages=[
     {src:'/three.png',alt:'work'},
     {src:'/two.png',alt:'work'},
     {src:'/one.png',alt:'work'},
@@ -17,51 +17,71 @@ const HomeOurWork = () => {
 
     
     ] 
+    const largeimages=[
+      {src:'/three.png',alt:'work'},
+      {src:'/two.png',alt:'work'},
+      {src:'/one.png',alt:'work'},
+      {src:'/three.png',alt:'work'},
+      {src:'/two.png',alt:'work'},
+      {src:'/one.png',alt:'work'},
+     
+  
+      
+      ] 
 
      return (
 
 
 <>
-
 <section className="text-gray-600 body-font">
-  <div className="container px-5 py-20 mx-auto">
-    <div className="flex flex-col text-center w-full mb-20">
-      <h1 className="sm:text-3xl text-2xl
-       font-medium title-font mb-8 text-[#1E3A8A]">Our Works</h1>
-      <p className="lg:w-2/3 mx-auto leading-relaxed 
-      text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fugit doloribus repellat quibusdam sunt. Porro ea ullam quod rerum assumenda quisquam nobis laudantium, fugiat eveniet
-       quo, nisi repellat unde placeat ?</p></div>
-    <div className="">
-    <div className="lg:w-full sm:w-full ">
-    <div className="grid grid-cols-3 gap-6 mx-24   ">
-
-
-  {images.map((images,index)=>(
-    
-
-    <ImageGrid
-    key={index}
-    src={images.src}
-    alt={images.alt}
-    width={550}
-    height={300}
-    
-    />
-    ))}
-  </div>
-
-  </div>
+  <div className="container px-5 py-24 mx-auto flex flex-wrap">
+    <div className="flex w-full mb-20 flex-wrap">
+      <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Master Cleanse Reliac Heirloom</h1>
+      <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
     </div>
-  <div className="flex justify-center text-lg pt-2 pb-12 ">
-            <Link href="../our-work" className='inline-flex 
-             text-[#F67F15]/80 pt-20 hover:text-blue-900 items-center '>
-            Know More
-           <FaArrowRight className='ml-2' />
+    <div className="flex flex-wrap md:-m-2 -m-1">
+      <div className="flex flex-wrap w-1/2">
+        <div className="md:p-2 p-1 w-1/2">
+          <img alt="gallery" className="w-full object-cover
+           h-full object-center block" src="/three.png"/>
+        </div>
+        <div className="md:p-2 p-1 w-1/2">
+          <img alt="gallery" className="w-full object-cover h-full 
+          object-center block" src="/two.png"/>
+        </div>
+        <div className="md:p-2 p-1 w-full">
+          <img alt="gallery" className="w-full h-full 
+          object-cover object-center block
+          " src="/three.png"/>
+        </div>
+      </div>
+      <div className="flex flex-wrap w-1/2">
+        <div className="md:p-2 p-1 w-full">
+          <img alt="gallery" className="w-full 
+          h-full object-cover object-center block"
+           src="/one.png"/>
+        </div>
+        <div className="md:p-2 p-1 w-1/2">
+          <img alt="gallery" className="w-full
+           object-cover h-full object-center
+            block" src="/two.png"/>
+        </div>
+        <div className="md:p-2 p-1 w-1/2">
+          <img alt="gallery" className="w-full 
+          object-cover h-full object-center 
+          block" src="/three.png"/>
+        </div>
+      </div>
+    </div>
 
-          </Link>
-          </div>
+  <div className='inline-flex text-center items-center hover:text-[#F9AF23] text-blue-700 mt-12 ml-[45%] justify-center'>
+    <Link className='inline-flex text-md text-center items-center' href="../our-work">
+    Know More  <FaArrowRight/>
+     </Link>
+  </div>
   </div>
 </section>
+
 </>
 
 

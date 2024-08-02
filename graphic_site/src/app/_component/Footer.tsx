@@ -8,7 +8,7 @@ const Footer = () => {
   <div className="container text-white px-5 py-14 justify-between flex
    mx-auto bg-blue-900 flex md:items-center
     lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-    <div className="w-[40%] flex-shrink-0 md:mx-0 mx-auto
+    <div className="md:w-[40%] h-full flex-shrink-0 md:mx-0 mx-auto
      text-center md:text-center">
       <a className="flex title-font font-medium items-center  justify-center text-white">
         <Image
@@ -17,50 +17,44 @@ const Footer = () => {
           width={60}
           height={60}
           alt="/logo"/>
-        <span className=" text-6xl text-[#FAAF22] text-center ml-4  font-gandalfel">Faisal Graphics</span>
+        <span className=" md:text-6xl text-2xl text-[#FAAF22] text-center
+         ml-4  font-gandalfel">Faisal Graphics</span>
       </a>
       {/* <p className="mt-3 ml-4 tracking-wider	 text-lg tracking-widest text-white font-medium text-gray-500">
         CUSTOMER SATISFACTION IS OUR PRIORITY</p> */}
-        <div className='m-4 mt-4 bg-blue-700/50 p-4 text-left tracking-widest rounded-lg'>
-         <h6 className='mb-2 font-semibold'>Contact Information</h6>
-      <div >
-      <label className='mr-2'>Faisal:</label>
-      
-      <a href="tel:+919714442086">
-        +91 9714442086
-      </a>
-      </div>
-    <div >
-      <label className='mr-2'>Nafis:</label>
+       <div className="md:m-4 w-full 
+       flex-grow flex  md:text-lg 
+       flex-wrap h-auto text-sm mt-4 bg-blue-700/50 p-4 text-left 
+       tracking-widest rounded-lg shadow-lg">
+  <h6 className="mb-2 font-semibold text-white">Contact Information</h6>
+  <div className="w-full mb-2">
+    <label className="mr-2 text-white">Faisal:</label>
+    <a href="tel:+919714442086" className="text-white  hover:text-blue-300">
+      +91 9714442086
+    </a>
+  </div>
+  <div className="w-full mb-2">
+    <label className="mr-2 text-white">Nafis:</label>
+    <a href="tel:+919825667409" className="text-white  hover:text-blue-300">
+      +91 9825667409
+    </a>
+  </div>
+  <div className="w-full mb-2">
+    <label className="mr-2 text-white">Sajid:</label>
+    <a href="tel:+919510101210" className="text-white  hover:text-blue-300">
+      +91 9510101210
+    </a>
+  </div>
+  <h6 className="mb-2 mt-4 font-semibold text-white">Address</h6>
+  <div className="w-full text-white">
+  Panjrigar Street Corner, Fatehpura Main Rd, Fatehpura, Vadodara, Gujarat 390006  </div>
+</div>
 
-      <a href="tel:+919825667409">
-        +91 9825667409
-      </a>
-      </div>
-      <div >
-      <label className='mr-2'>Sajid:</label>
-      
-      <a href="tel:+919510101210">
-        +91 9510101210
-      </a>
-      </div>
-      <h6 className='mb-2 mt-2 font-semibold'>Address</h6>
-      <div >
-      
-      <p>
-      Faisal Graphics
-      Panjrigar Street Corner, Fatehpura Main Rd, Fatehpura, Vadodara, Gujarat 390006        </p>
-      </div>
-   
-
-
-
-        </div>
     </div>
-    <div className="flex-grow flex flex-wrap rounded-lg
-     md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+    <div className="flex-grow flex  flex-wrap rounded-lg
+     md:pl-20 -mb-10 md:mt-0 p-1 mt- md:text-left text-center">
     <iframe
-    className='rounded-xl h-56 mt-24'
+    className='rounded-xl h-72 mt-16'
               width="100%"
               height="100%"
               title="map"
