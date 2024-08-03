@@ -35,9 +35,10 @@ const HomeOurWork = () => {
 <>
 <section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto flex flex-wrap">
-    <div className="flex w-full mb-20 flex-wrap">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Master Cleanse Reliac Heirloom</h1>
-      <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
+    <div className="w-full mb-20 text-center items-center ">
+      <h1 className="sm:text-3xl text-2xl font-medium 
+      title-font text-gray-900  lg:mb-0 md:mb-8">Our Work</h1>
+      <p className="lg:pl-6 lg:w-2/3 mt-2  mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
     </div>
     <div className="flex flex-wrap md:-m-2 -m-1">
       <div className="flex flex-wrap w-1/2">
@@ -74,10 +75,17 @@ const HomeOurWork = () => {
       </div>
     </div>
 
-  <div className='inline-flex text-center items-center hover:text-[#F9AF23] text-blue-700 mt-12 ml-[45%] justify-center'>
+    <div className="p-2 w-full mt-8">
+          <button className="flex mx-auto text-white bg-blue-800
+           border-0 py-2 px-4 focus:outline-none  hover:bg-[#F9AF23]
+            rounded text-lg">
+              
     <Link className='inline-flex text-md text-center items-center' href="../our-work">
-    Know More  <FaArrowRight/>
+    Know More  
      </Link>
+              </button>
+        </div>
+  <div className='inline-flex bg-blue-900 rounded-lg text-center items-center text-blue-700 mt-12 ml-[45%] justify-center'>
   </div>
   </div>
 </section>

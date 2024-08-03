@@ -15,9 +15,9 @@ const HeroCards: React.FC = () => {
   ];
 
   return (
-    <div className="text-black md:visible lg:visible hidden  ">
-      <div className="grid grid-cols-3 gap-1 mt-40 mr-4">
-        {images.map((image, index) => (
+    <div className="text-black md:block lg:block m-[2%] mt-56 h-[100%] w-[65%] fixed-height hidden  ">
+      {/* <div className="grid grid-cols-3 gap-1 mt-40 mr-4"> */}
+        {/* {images.map((image, index) => (
           <CardImage
             key={index}
             src={image.src}
@@ -26,8 +26,43 @@ const HeroCards: React.FC = () => {
             className={image.className}
             alt={image.alt}
           />
-        ))}
+        ))} */}
+
+<div className="md:-m-2 -m-1 flex flex-wrap  justify-end ">
+      <div className="flex flex-wrap  w-1/2">
+        <div className="md:p-2 p-1 w-1/2">
+          <img alt="gallery" className="w-full object-cover
+           h-full object-center block" src="/three.png"/>
+        </div>
+        <div className="md:p-2 p-1 w-1/2">
+          <img alt="gallery" className="w-full object-cover h-full 
+          object-center block" src="/two.png"/>
+        </div>
+        <div className="md:p-2 p-1 w-full">
+          <img alt="gallery" className="w-full h-full 
+          object-cover object-center block
+          " src="/three.png"/>
+        </div>
       </div>
+      <div className="flex flex-wrap w-1/2">
+        <div className="md:p-2 p-1 w-full">
+          <img alt="gallery" className="w-full 
+          h-full object-cover object-center block"
+           src="/one.png"/>
+        </div>
+        <div className="md:p-2 p-1 w-1/2">
+          <img alt="gallery" className="w-full
+           object-cover h-full object-center
+            block" src="/two.png"/>
+        </div>
+        <div className="md:p-2 p-1 w-1/2">
+          <img alt="gallery" className="w-full 
+          object-cover h-full object-center 
+          block" src="/three.png"/>
+        </div>
+      </div>
+    </div>
+      {/* </div> */}
     </div>
   );
 };

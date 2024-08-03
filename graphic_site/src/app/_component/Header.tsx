@@ -22,7 +22,10 @@ const Header = () => {
         <div className="flex m-4 ml-20  w-full lg:w-2/5 md:my-4
          md:w-2/5 justify-end text-black lg:ml-0 mt-4 ">
           <div className="inline-flex ">
+            <a href="https://wa.me/919714442086">
+
             <IoLogoWhatsapp className='text-xl hover:text-green-500 mr-3'/>
+            </a>
           </div>
           <div className="inline-flex items-center hover:text-green-500 mr-5">
             <MdCall className='text-xl' />
