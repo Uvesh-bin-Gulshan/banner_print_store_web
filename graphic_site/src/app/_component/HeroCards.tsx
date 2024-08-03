@@ -15,18 +15,11 @@ const HeroCards: React.FC = () => {
   ];
 
   return (
-    <div className="text-black md:block lg:block m-[2%] mt-32 h-[100%] w-[90%] fixed-height hidden  ">
-      {/* <div className="grid grid-cols-3 gap-1 mt-40 mr-4"> */}
-        {/* {images.map((image, index) => (
-          <CardImage
-            key={index}
-            src={image.src}
-            width={400}
-            height={400}
-            className={image.className}
-            alt={image.alt}
-          />
-        ))} */}
+    <div className="text-black md:block lg:block 
+    m-[2%] mt-32 h-[100%] w-[90%] fixed-
+
+    
+    hidden  ">
 
 <div className="md:-m-2 -m-1 flex flex-wrap  justify-end ">
       <div className="flex flex-wrap  w-1/2">

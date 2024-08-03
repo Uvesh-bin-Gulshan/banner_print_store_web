@@ -7,8 +7,8 @@ import "../globals.css";
 const Hero = () => {
   return (
     <>
-      <div className="hero min-h-screen w-full bg-base-200">
-        <div className="bg-blue-900 via-blue-700  to-blue-300 flex
+      <div className="hero min-h-screen w-full bg-base-200  ">
+        <div className="bg-blue-900 via-blue-700 relative  to-blue-300 flex
          md:justify-between w-full h-full text-[#FAAF22] text-shadow-xl py-1 pl-10">
           <div className="my-12 mx-2 w-full h-full">
             <div className="fixed-height  mt-16">
@@ -29,7 +29,7 @@ const Hero = () => {
                 className="md:text-[100px] text-6xl font-gandalfel  "
               />
             </div>
-            <div className="fixed-height md:mt-56 mt-16 ">
+            <div className="fixed-height md:mt-56 mt-36 absolute">
               <TypeAnimation
                 sequence={[
                   "Crafting\nDesigning\nCreativite\nTomorrow",
@@ -44,7 +44,7 @@ const Hero = () => {
                 cursor={false}
                 repeat={Infinity}
                 style={{  display: "inline-block",whiteSpace: "pre-wrap" }}
-                className=" mt-4 text-left py-8
+                className=" lg:mt-4 mt-8 text-left py-8
                 text-blue-300 uppercase 
                 font-extrabold w-full text-3xl text-justify md:text-6xl"
               />
