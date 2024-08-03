@@ -4,7 +4,6 @@ import Footer from "./_component/Footer";
 import Hero from "./_component/Hero";
 import Category from "./_component/CategoryLeft";
 import Count from "./_component/Count";
-import Preview from "./_component/Preview";
 import SocialMedia from "./_component/SocialMedia";
 import CategoryCard1 from "./category-detail.tsx/CategoryCard1";
 import CategoryCard2 from "./category-detail.tsx/CategoryCard2";

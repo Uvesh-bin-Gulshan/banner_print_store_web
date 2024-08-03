@@ -15,7 +15,7 @@ const HeroCards: React.FC = () => {
   ];
 
   return (
-    <div className="text-black md:block lg:block m-[2%] mt-56 h-[100%] w-[65%] fixed-height hidden  ">
+    <div className="text-black md:block lg:block m-[2%] mt-32 h-[100%] w-[90%] fixed-height hidden  ">
       {/* <div className="grid grid-cols-3 gap-1 mt-40 mr-4"> */}
         {/* {images.map((image, index) => (
           <CardImage

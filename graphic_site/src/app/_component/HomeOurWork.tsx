@@ -38,7 +38,12 @@ const HomeOurWork = () => {
     <div className="w-full mb-20 text-center items-center ">
       <h1 className="sm:text-3xl text-2xl font-medium 
       title-font text-gray-900  lg:mb-0 md:mb-8">Our Work</h1>
-      <p className="lg:pl-6 lg:w-2/3 mt-2  mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
+      <p className="lg:pl-6 lg:w-2/3 mt-2  
+      mx-auto leading-relaxed text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio possimus sed quis nihil deleniti illum, minus nobis vero obcaecati aut rerum incidunt? Quisquam facere nulla quibu.
+      sdam obcaecati qui maiores temporibus.</p>
+  
+  
+  
     </div>
     <div className="flex flex-wrap md:-m-2 -m-1">
       <div className="flex flex-wrap w-1/2">
@@ -75,7 +80,7 @@ const HomeOurWork = () => {
       </div>
     </div>
 
-    <div className="p-2 w-full mt-8">
+    <div className="p-2 mt-14 w-full ">
           <button className="flex mx-auto text-white bg-blue-800
            border-0 py-2 px-4 focus:outline-none  hover:bg-[#F9AF23]
             rounded text-lg">
