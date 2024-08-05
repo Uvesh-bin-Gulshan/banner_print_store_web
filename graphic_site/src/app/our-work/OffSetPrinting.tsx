@@ -7,8 +7,8 @@ const OffSetPrinting = () => {
     {
       image: 'https://dummyimage.com/720x400',
       subtitle: 'SUBTITLE',
-      title: 'Chichen Itza',
-      description: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.',
+      title: 'Bill Books and Letterheads',
+      description: 'Professional printing services for all your business needs. Get customized bill books and letterheads in various sizes.',
     },
     {
       image: 'https://dummyimage.com/721x401',
