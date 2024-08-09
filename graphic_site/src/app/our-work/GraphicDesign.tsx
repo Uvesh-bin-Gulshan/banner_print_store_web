@@ -6,7 +6,7 @@ const GraphicDesign = () => {
   const cardData = [
     {
       
-      image: 'graphic_site/public/media/grpaphic1.jpg',
+      image: '/public/media/grpaphic1.jpg',
       subtitle: 'WAIT',
       title: 'Chichen ',
       description: 'Unique logos capturing brand essence. Memorable, versatile, timeless.',
