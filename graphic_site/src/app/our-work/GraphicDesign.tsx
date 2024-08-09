@@ -13,7 +13,7 @@ const GraphicDesign = () => {
     },
     {
       image: '/public/media/graphic3.jpg',
-      subtitle: 'COMING SOON',
+      subtitle: 'COMING EARLY',
       title: 'The Art of Logo Design',
       description: 'Print design remains a crucial aspect of marketing. From brochures to business cards, print materials need to be visually appealing and informative. This article covers essential tips for creating effective print designs, including layout, typography, and color theory.',
     },
