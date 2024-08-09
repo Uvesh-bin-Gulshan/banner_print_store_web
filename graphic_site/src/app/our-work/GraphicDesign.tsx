@@ -8,7 +8,7 @@ const GraphicDesign = () => {
       
       image: 'graphic_site/public/media/grpaphic1.jpg',
       subtitle: 'WAIT',
-      title: 'Chichen Itza',
+      title: 'Chichen ',
       description: 'Unique logos capturing brand essence. Memorable, versatile, timeless.',
     },
     {
