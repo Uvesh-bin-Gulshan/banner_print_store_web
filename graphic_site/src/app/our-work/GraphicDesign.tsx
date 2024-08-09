@@ -18,7 +18,7 @@ const GraphicDesign = () => {
       description: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.',
     },
     {
-      image: '/public/media/grpaphic1.jpg',
+      image: 'https://github.com/Uvesh-bin-Gulshan/graphic_web/blob/6d9c5e32595f986efa3904e9ed60fd3cd25a4d72/graphic_site/public/media/grpaphic1.jpg',
       subtitle: 'SUBTITLE',
       title: 'aamir',
       description: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.',
