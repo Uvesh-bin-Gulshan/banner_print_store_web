@@ -9,7 +9,7 @@ const GraphicDesign = () => {
       image: '/public/media/graphic2.png',
       subtitle: 'WAIT',
       title: 'Chichen Itza',
-      description: 'Creating a logo is more than just picking a font and color. It’s about capturing the essence of a brand in a single image. A well-designed logo is memorable, versatile, and timeless. It should work across various mediums and sizes, from business cards to billboards.',
+      description: 'Unique logos capturing brand essence. Memorable, versatile, timeless.',
     },
     {
       image: '/public/media/graphic3.jpg',
