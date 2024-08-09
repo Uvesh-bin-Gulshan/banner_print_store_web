@@ -6,7 +6,7 @@ const GraphicDesign = () => {
   const cardData = [
     {
       
-      image: '/public/media/graphic2.png',
+      image: 'graphic_site/public/media/grpaphic1.jpg',
       subtitle: 'WAIT',
       title: 'Chichen Itza',
       description: 'Unique logos capturing brand essence. Memorable, versatile, timeless.',
