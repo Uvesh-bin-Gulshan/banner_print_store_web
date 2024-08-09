@@ -15,19 +15,19 @@ const GraphicDesign = () => {
       image: '/public/media/graphic3.jpg',
       subtitle: 'COMING EARLY',
       title: 'The Art of Logo Design',
-      description: 'Print design remains a crucial aspect of marketing. From brochures to business cards, print materials need to be visually appealing and informative. This article covers essential tips for creating effective print designs, including layout, typography, and color theory.',
+      description: ' Eye-catching brochures, business cards. Effective layouts, vibrant colors. ',
     },
     {
       image: 'https://github.com/Uvesh-bin-Gulshan/graphic_web/blob/6d9c5e32595f986efa3904e9ed60fd3cd25a4d72/graphic_site/public/media/grpaphic1.jpg',
       subtitle: 'Mastering Print Design: Tips and Tricks',
       title: 'aamir',
-      description: 'Web design is constantly evolving. Staying updated with the latest trends can help designers create modern and user-friendly websites. This article explores the top web design trends for 2024, including minimalism, dark mode, and interactive elements.',
+      description: 'Minimalism, dark mode, interactive elements. Modern, user-friendly websites.',
     },
     {
       image: '/public/media/grpaphic1.jpg',
       subtitle: 'ID NAME',
       title: 'Web Design Trends to Watch in 2024',
-      description: ' Social media is a powerful tool for businesses to connect with their audience. Engaging graphics can boost your online presence and drive engagement. This guide provides tips for designing eye-catching social media graphics, including the use of colors, fonts, and images.',
+      description: 'Engaging visuals for social platforms. Boost online presence, drive engagement.',
     },
   ];
   return (
