@@ -6,25 +6,25 @@ const GraphicDesign = () => {
   const cardData = [
     {
       
-      image: '/media/graphic_design.png',
+      image: '/media/graphic2.png',
       subtitle: 'SUBTITLE',
       title: 'Chichen Itza',
       description: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.',
     },
     {
-      image: 'https://dummyimage.com/721x401',
+      image: '/media/graphic3.jpg',
       subtitle: 'SUBTITLE',
       title: 'Colosseum Roma',
       description: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.',
     },
     {
-      image: 'https://dummyimage.com/722x402',
+      image: 'graphic_site/public/media/grpaphic1.jpg',
       subtitle: 'SUBTITLE',
-      title: 'sffsdf',
+      title: 'aamir',
       description: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.',
     },
     {
-      image: 'https://dummyimage.com/722x402',
+      image: '/media/grpaphic1.jpg',
       subtitle: 'SUBTITLE',
       title: 'San Francisco',
       description: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.',
