@@ -13,7 +13,7 @@ const GraphicDesign = () => {
     },
     {
       image: '/public/media/graphic3.jpg',
-      subtitle: 'SUBTITLE',
+      subtitle: 'COMING SOON',
       title: 'Colosseum Roma',
       description: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.',
     },
