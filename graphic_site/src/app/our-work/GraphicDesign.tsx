@@ -9,25 +9,25 @@ const GraphicDesign = () => {
       image: '/public/media/graphic2.png',
       subtitle: 'SUBTITLE',
       title: 'Chichen Itza',
-      description: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.',
+      description: 'Creating a logo is more than just picking a font and color. It’s about capturing the essence of a brand in a single image. A well-designed logo is memorable, versatile, and timeless. It should work across various mediums and sizes, from business cards to billboards.',
     },
     {
       image: '/public/media/graphic3.jpg',
       subtitle: 'COMING SOON',
-      title: 'Colosseum Roma',
-      description: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.',
+      title: 'The Art of Logo Design',
+      description: 'Print design remains a crucial aspect of marketing. From brochures to business cards, print materials need to be visually appealing and informative. This article covers essential tips for creating effective print designs, including layout, typography, and color theory.',
     },
     {
       image: 'https://github.com/Uvesh-bin-Gulshan/graphic_web/blob/6d9c5e32595f986efa3904e9ed60fd3cd25a4d72/graphic_site/public/media/grpaphic1.jpg',
-      subtitle: 'SUBTITLE',
+      subtitle: 'Mastering Print Design: Tips and Tricks',
       title: 'aamir',
-      description: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.',
+      description: 'Web design is constantly evolving. Staying updated with the latest trends can help designers create modern and user-friendly websites. This article explores the top web design trends for 2024, including minimalism, dark mode, and interactive elements.',
     },
     {
       image: '/public/media/grpaphic1.jpg',
       subtitle: 'ID NAME',
-      title: 'San Francisco',
-      description: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.',
+      title: 'Web Design Trends to Watch in 2024',
+      description: ' Social media is a powerful tool for businesses to connect with their audience. Engaging graphics can boost your online presence and drive engagement. This guide provides tips for designing eye-catching social media graphics, including the use of colors, fonts, and images.',
     },
   ];
   return (
