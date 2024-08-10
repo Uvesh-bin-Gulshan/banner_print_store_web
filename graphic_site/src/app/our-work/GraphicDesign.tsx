@@ -7,8 +7,8 @@ const GraphicDesign = () => {
     {
       
       image: '/media/grpaphic1.jpg',
-      subtitle: 'WAIT',
-      title: 'Chichen ',
+      subtitle: 'Graphic Design',
+      title: 'wait',
       description: 'Unique logos capturing brand essence. Memorable, versatile, timeless.',
     },
     {
