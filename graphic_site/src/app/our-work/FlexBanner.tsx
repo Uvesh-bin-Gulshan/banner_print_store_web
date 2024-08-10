@@ -12,7 +12,7 @@ const FlexBanner = () => {
     },
     {
       image: '/media/flex2.jpeg',
-      subtitle: 'SUBTITLE',
+      subtitle: 'Flex Banner',
       title: 'Colosseum Roma',
       description: 'Custom designs. Perfect for every event.',
     },
