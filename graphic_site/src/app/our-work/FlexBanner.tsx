@@ -5,28 +5,28 @@ const FlexBanner = () => {
   
   const cardData = [
     {
-      image: 'https://dummyimage.com/720x400',
+      image: '/media/flex1.jpg',
       subtitle: 'SUBTITLE',
       title: 'Chichen Itza',
-      description: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.',
+      description: 'Vibrant banners. Grab attention instantly.',
     },
     {
-      image: 'https://dummyimage.com/721x401',
+      image: '/media/flex2.jpeg',
       subtitle: 'SUBTITLE',
       title: 'Colosseum Roma',
-      description: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.',
+      description: 'Custom designs. Perfect for every event.',
     },
     {
-      image: 'https://dummyimage.com/722x402',
+      image: '/media/flex.jpg',
       subtitle: 'SUBTITLE',
       title: 'sffsdf',
-      description: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.',
+      description: 'Weather-resistant. Durable, long-lasting.',
     },
     {
-      image: 'https://dummyimage.com/722x402',
+      image: '/media/flex4.avif',
       subtitle: 'SUBTITLE',
       title: 'San Francisco',
-      description: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.',
+      description: 'Bold graphics. Convey your message clearly.',
     },
   ];
   return (
@@ -34,7 +34,8 @@ const FlexBanner = () => {
 
 <WorkSection className="bg-gray-500"
       title="Flex Banner"
-      description="Whatever cardigan tote bassdgdfg tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag."
+      description="Eye-Catching Banners
+Grab attention with custom-designed flex banners. Ideal for events, promotions, and storefronts."
       cardData={cardData}
     />
 </>
