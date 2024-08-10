@@ -17,7 +17,7 @@ const FlexBanner = () => {
       description: 'Custom designs. Perfect for every event.',
     },
     {
-      image: '/media/flex.jpg',
+      image: '/media/flex3.jpg',
       subtitle: 'SUBTITLE',
       title: 'sffsdf',
       description: 'Weather-resistant. Durable, long-lasting.',
