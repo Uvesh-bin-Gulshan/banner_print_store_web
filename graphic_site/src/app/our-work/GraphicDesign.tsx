@@ -6,25 +6,25 @@ const GraphicDesign = () => {
   const cardData = [
     {
       
-      image: '/public/media/grpaphic1.jpg',
+      image: '/media/grpaphic1.jpg',
       subtitle: 'WAIT',
       title: 'Chichen ',
       description: 'Unique logos capturing brand essence. Memorable, versatile, timeless.',
     },
     {
-      image: '/public/media/graphic3.jpg',
+      image: '/media/graphic3.jpg',
       subtitle: 'COMING EARLY',
       title: 'The Art of Logo Design',
       description: ' Eye-catching brochures, business cards. Effective layouts, vibrant colors. ',
     },
     {
-      image: 'https://github.com/Uvesh-bin-Gulshan/graphic_web/blob/6d9c5e32595f986efa3904e9ed60fd3cd25a4d72/graphic_site/public/media/grpaphic1.jpg',
+      image:'/media/grpaphic1.jpg',
       subtitle: 'Mastering Print Design: Tips and Tricks',
       title: 'aamir',
       description: 'Minimalism, dark mode, interactive elements. Modern, user-friendly websites.',
     },
     {
-      image: '/public/media/grpaphic1.jpg',
+      image: '/media/grpaphic1.jpg',
       subtitle: 'ID NAME',
       title: 'Web Design Trends to Watch in 2024',
       description: 'Engaging visuals for social platforms. Boost online presence, drive engagement.',
