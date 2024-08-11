@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Card = ({image,subtitle,title,description}:any) => {
+ const Card = ({image,subtitle,title,description}:any) => {
   return (
 <>
 <div className="xl:w-1/4 md:w-1/2  p-4">

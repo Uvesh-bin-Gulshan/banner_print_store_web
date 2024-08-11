@@ -39,7 +39,8 @@ const HomeOurWork = () => {
       <h1 className="sm:text-3xl text-2xl font-medium 
       title-font text-gray-900  lg:mb-0 md:mb-8">Our Work</h1>
       <p className="lg:pl-6 lg:w-2/3 mt-2  
-      mx-auto leading-relaxed text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio possimus sed quis nihil deleniti illum, minus nobis vero obcaecati aut rerum incidunt? Quisquam facere nulla quibu.
+      mx-auto leading-relaxed text-base">Lorem ipsum dolor 
+      sit amet consectetur adipisicing elit. Odio possimus sed quis nihil deleniti illum, minus nobis vero obcaecati aut rerum incidunt? Quisquam facere nulla quibu.
       sdam obcaecati qui maiores temporibus.</p>
   
   
