@@ -8,25 +8,25 @@ const OffSetPrinting = () => {
       image: 'https://dummyimage.com/720x400',
       subtitle: 'SUBTITLE',
       title: 'Bill Books and Letterheads',
-      description: 'Professional printing services for all your business needs. Get customized bill books and letterheads in various sizes.',
+      description: 'Precision printing. High-quality results.',
     },
     {
       image: 'https://dummyimage.com/721x401',
       subtitle: 'SUBTITLE',
-      title: 'Colosseum Roma',
-      description: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.',
+      title: 'OffSetPrinting,
+      description: 'Custom sizes. Perfect for every need.',
     },
     {
       image: 'https://dummyimage.com/722x402',
       subtitle: 'SUBTITLE',
-      title: 'sffsdf',
-      description: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.',
+      title: 'OffSetPrinting,
+      description: 'Vibrant colors. Consistent and accurate.',
     },
     {
       image: 'https://dummyimage.com/722x402',
       subtitle: 'SUBTITLE',
       title: 'San Francisco',
-      description: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.',
+      description: Reliable service. Quick turnaround.',
     },
   ];
   return (
