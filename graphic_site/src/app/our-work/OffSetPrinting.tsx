@@ -13,20 +13,20 @@ const OffSetPrinting = () => {
     {
       image: 'https://dummyimage.com/721x401',
       subtitle: 'SUBTITLE',
-      title: 'OffSetPrinting,
+      title: 'OffSetPrinting',
       description: 'Custom sizes. Perfect for every need.',
     },
     {
       image: 'https://dummyimage.com/722x402',
       subtitle: 'SUBTITLE',
-      title: 'OffSetPrinting,
+      title: 'OffSetPrinting',
       description: 'Vibrant colors. Consistent and accurate.',
     },
     {
       image: 'https://dummyimage.com/722x402',
       subtitle: 'SUBTITLE',
       title: 'San Francisco',
-      description: Reliable service. Quick turnaround.',
+      description: 'Reliable service. Quick turnaround.',
     },
   ];
   return (
