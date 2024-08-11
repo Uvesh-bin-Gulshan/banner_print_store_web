@@ -7,7 +7,7 @@ const OffSetPrinting = () => {
     {
       image: 'https://dummyimage.com/720x400',
       subtitle: 'SUBTITLE',
-      title: 'Bill Books and Letterheads',
+      title: 'Letterheads',
       description: 'Precision printing. High-quality results.',
     },
     {
