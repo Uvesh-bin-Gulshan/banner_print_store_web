@@ -14,7 +14,7 @@ const CategoryCard1 = () => {
       id: '1',
       image: '/media/graphic_design.png',
       title: 'Graphic Design',
-      description: 'Unique logos capturing brand essence. Memorable, versatile, and timeless designs tailored to represent your business effectively.',
+      description: 'Unique logos and stickers capturing brand essence. Memorable, versatile, and timeless designs tailored to represent your business effectively.',
     },
     {
       id: '2',
