@@ -33,7 +33,7 @@ const WeddingCard = () => {
   return (
     <>
       <WorkSection className="bg-gray-500"
-        title="Exquisite Wedding Invitation Design & Printing"
+        title="Wedding Cards"
         description="Celebrate your special day with wedding invitations that are as unique and beautiful as your love story. At Faisal Graphics, we specialize in creating custom wedding invitations that capture the essence of your event. With premium quality printing, a range of elegant designs, and complete wedding stationery solutions, we ensure your invitations set the perfect tone for your big day, all within your budget."
         cardData={cardData}
       />
