@@ -8,7 +8,7 @@ const VisitingCard = () => {
       image: 'https://dummyimage.com/720x400',
       subtitle: 'Custom Designs Tailored to You',
       title: 'Unique and Memorable Business Cards',
-      description: 'Stand out with bespoke business cards that reflect your brand’s identity. Whether you need a minimalist design or something bold and eye-catching, our custom designs ensure that your business cards leave a lasting impression.',
+      description: 'Stand out with the bespoke business cards that reflect your brand’s identity. Whether you need a minimalist design or something bold and eye-catching, our custom designs ensure that your business cards leave a lasting impression.',
     },
     {
       image: 'https://dummyimage.com/721x401',
