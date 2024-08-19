@@ -6,27 +6,27 @@ const LetterHead = () => {
   const cardData = [
     {
       image: 'https://dummyimage.com/720x400',
-      subtitle: 'SUBTITLE',
-      title: 'Chichen Itza',
-      description: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.',
+      subtitle: 'Professional Appearance',
+      title: 'Make a Lasting Impression',
+      description: 'Elevate your business communication with custom-designed letterheads that reflect your brand’s professionalism and identity.',
     },
     {
       image: 'https://dummyimage.com/721x401',
-      subtitle: 'SUBTITLE',
-      title: 'Colosseum Roma',
-      description: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.',
+      subtitle: 'Premium Quality',
+      title: 'High-Quality Paper and Print',
+      description: 'We use only the finest materials and printing techniques to ensure your letterhead looks and feels premium, making every correspondence noteworthy.',
     },
     {
       image: 'https://dummyimage.com/722x402',
-      subtitle: 'SUBTITLE',
-      title: 'sffsdf',
-      description: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.',
+      subtitle: 'Custom Design',
+      title: 'Tailored to Your Brand',
+      description: 'Whether you need a sleek, modern design or something more traditional, we create letterheads that perfectly match your brand’s personality and style.',
     },
     {
       image: 'https://dummyimage.com/722x402',
-      subtitle: 'SUBTITLE',
-      title: 'San Francisco',
-      description: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.',
+      subtitle: 'Various Sizes',
+      title: 'Flexible Options',
+      description: 'Choose from various sizes to suit your needs, whether for official letters, internal communications, or special announcements.',
     },
   ];
   return (
@@ -34,7 +34,7 @@ const LetterHead = () => {
 
 <WorkSection className="bg-gray-500"
       title="Letter Head"
-      description="Whatever cardigan tote bassdgdfg tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag."
+      description=""
       cardData={cardData}
     />
 </>
