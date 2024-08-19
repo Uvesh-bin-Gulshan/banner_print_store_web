@@ -6,27 +6,27 @@ const OffSetPrinting = () => {
   const cardData = [
     {
       image: 'https://dummyimage.com/720x400',
-      subtitle: 'SUBTITLE',
-      title: 'Letterheads',
-      description: 'Precision printing. High-quality results.',
+      subtitle: 'Professional Appearance',
+      title: 'Make Every Communication Count',
+      description: 'A well-crafted letterhead speaks volumes about your business. Our designs ensure that your brand stands out with every piece of correspondence, showcasing your professionalism and attention to detail.',
     },
     {
       image: 'https://dummyimage.com/721x401',
-      subtitle: 'SUBTITLE',
-      title: 'OffSetPrinting',
-      description: 'Custom sizes. Perfect for every need.',
+      subtitle: 'Premium Quality Materials',
+      title: 'Unmatched Quality for a Lasting Impact',
+      description: 'We use only the highest quality paper and printing techniques to produce letterheads that not only look stunning but also feel exceptional. This ensures your brand is represented with the utmost care and quality.',
     },
     {
       image: 'https://dummyimage.com/722x402',
-      subtitle: 'SUBTITLE',
-      title: 'OffSetPrinting',
-      description: 'Vibrant colors. Consistent and accurate.',
+      subtitle: 'Custom Design Tailored to You',
+      title: 'Reflect Your Brand’s Unique Identity',
+      description: 'Your brand is unique, and your letterhead should be too. We work closely with you to create a custom design that captures your brand’s essence, ensuring that every detail aligns with your company’s identity.',
     },
     {
       image: 'https://dummyimage.com/722x402',
-      subtitle: 'SUBTITLE',
-      title: 'San Francisco',
-      description: 'Reliable service. Quick turnaround.',
+      subtitle: 'Versatile Sizing Options',
+      title: 'Letterheads to Fit Every Need',
+      description: 'Whether you need standard sizes or something more unique, our letterhead service offers a variety of options to meet all your business communication needs. From official letters to internal memos, we’ve got you covered.',
     },
   ];
   return (
@@ -34,7 +34,8 @@ const OffSetPrinting = () => {
 
 <WorkSection className="bg-gray-500"
       title="Offset Printing"
-      description="Whatever cardigan tote bassdgdfg tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag."
+      description="Elevate Your Brand with Professional, High-Quality Letterheads
+At Faisal Graphics, we understand that a letterhead is more than just a piece of paper—it’s a crucial aspect of your brand identity. Our expert designers work closely with you to create a letterhead that embodies your brand’s essence. Whether you need something modern and sleek or classic and elegant, our premium materials and printing techniques ensure that your letterhead makes a lasting impression in every correspondence."
       cardData={cardData}
     />
 </>
