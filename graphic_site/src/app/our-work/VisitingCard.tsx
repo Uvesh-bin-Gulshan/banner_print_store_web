@@ -1,7 +1,7 @@
 import React from 'react';
 import WorkSection from '../_component/WorkSection';
 
-const GraphicAndFlex = () => {
+const VisitingCard = () => {
 
   const cardData = [
     {
