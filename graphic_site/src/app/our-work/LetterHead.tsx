@@ -34,7 +34,7 @@ const LetterHead = () => {
 
 <WorkSection className="bg-gray-500"
       title="Letter Head"
-      description=""
+      description="Make a lasting impression with bespoke letterheads that reflect your brand’s unique identity. Crafted from the finest materials and available in various sizes, our letterheads ensure your business stands out in every correspondence, combining premium design with exceptional print quality."
       cardData={cardData}
     />
 </>
