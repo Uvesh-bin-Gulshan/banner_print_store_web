@@ -5,7 +5,7 @@ const GraphicDesign = () => {
 
   const cardData = [
     {
-      image: '/media/graphic1.jpg',
+      image: '/media/graphic.jpg',
       subtitle: 'The Art of Logo Design',
       title: 'Unique Logos Capturing Brand Essence',
       description: 'Our logo designs are also crafted to be memorable, versatile, and timeless, perfectly capturing the essence of your brand. Make a lasting impression with a logo that truly represents your business.',
@@ -17,13 +17,13 @@ const GraphicDesign = () => {
       description: 'We specialize in creating stunning brochures, business cards, and other print materials. With effective layouts and vibrant colors, our designs are crafted to communicate your message clearly and attractively.',
     },
     {
-      image: '/media/graphic1.jpg',
+      image: '/media/graphic2.png',
       subtitle: 'Modern Web Design',
       title: 'Minimalist, User-Friendly Websites',
       description: 'Stay ahead of the curve with cutting-edge web design. From minimalism and dark mode to interactive elements, our web designs are modern, user-friendly, and optimized for a seamless experience.',
     },
     {
-      image: '/media/graphic1.jpg',
+      image: '/media/grpaphic1.jpg.jpg',
       subtitle: 'Engaging Social Media Graphics',
       title: 'Boost Your Online Presence',
       description: 'Capture attention and drive engagement with visually appealing social media graphics. Our designs are tailored to enhance your online presence and resonate with your audience across platforms.',
