@@ -33,7 +33,7 @@ const GraphicDesign = () => {
   return (
     <>
       <WorkSection className="bg-[#1E3A8A]"
-        title="Creative and Professional Graphic Design Services"
+        title="Graphic Design"
         description="At Faisal Graphics, we offer a wide range of graphic design services to help your brand stand out. From custom logos and print design to modern web design and engaging social media graphics, our team delivers creative solutions tailored to your needs. Whether you're looking to build brand identity, enhance marketing materials, or boost your online presence, we have the expertise to bring your vision to life."
         cardData={cardData}
       />
