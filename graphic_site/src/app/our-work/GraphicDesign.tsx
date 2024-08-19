@@ -1,47 +1,44 @@
-import React from 'react'
-import WorkSection from '../_component/WorkSection'
+import React from 'react';
+import WorkSection from '../_component/WorkSection';
 
 const GraphicDesign = () => {
-  
+
   const cardData = [
     {
-      
-      image: '/media/grpaphic1.jpg',
-      subtitle: 'Graphic Design',
-      title: 'wait',
-      description: 'Unique logos capturing brand essence. Memorable, versatile, timeless.',
+      image: '/media/graphic1.jpg',
+      subtitle: 'The Art of Logo Design',
+      title: 'Unique Logos Capturing Brand Essence',
+      description: 'Our logo designs are crafted to be memorable, versatile, and timeless, perfectly capturing the essence of your brand. Make a lasting impression with a logo that truly represents your business.',
     },
     {
       image: '/media/graphic3.jpg',
-      subtitle: 'COMING EARLY',
-      title: 'The Art of Logo Design',
-      description: ' Eye-catching brochures, business cards. Effective layouts, vibrant colors. ',
+      subtitle: 'Eye-Catching Print Design',
+      title: 'Brochures, Business Cards, and More',
+      description: 'We specialize in creating stunning brochures, business cards, and other print materials. With effective layouts and vibrant colors, our designs are crafted to communicate your message clearly and attractively.',
     },
     {
-      image:'/media/grpaphic1.jpg',
-      subtitle: 'Mastering Print Design: Tips and Tricks',
-      title: 'aamir',
-      description: 'Minimalism, dark mode, interactive elements. Modern, user-friendly websites.',
+      image: '/media/graphic1.jpg',
+      subtitle: 'Modern Web Design',
+      title: 'Minimalist, User-Friendly Websites',
+      description: 'Stay ahead of the curve with cutting-edge web design. From minimalism and dark mode to interactive elements, our web designs are modern, user-friendly, and optimized for a seamless experience.',
     },
     {
-      image: '/media/grpaphic1.jpg',
-      subtitle: 'ID NAME',
-      title: 'Web Design Trends to Watch in 2024',
-      description: 'Engaging visuals for social platforms. Boost online presence, drive engagement.',
+      image: '/media/graphic1.jpg',
+      subtitle: 'Engaging Social Media Graphics',
+      title: 'Boost Your Online Presence',
+      description: 'Capture attention and drive engagement with visually appealing social media graphics. Our designs are tailored to enhance your online presence and resonate with your audience across platforms.',
     },
   ];
+
   return (
-<>
-
-<WorkSection className="bg-[#1E3A8A]"
-      title="Graphic Design"
-      description="Whatever cardigan tote b brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag."
-      cardData={cardData}
-    />
-</>
-
-
-)
+    <>
+      <WorkSection className="bg-[#1E3A8A]"
+        title="Creative and Professional Graphic Design Services"
+        description="At Faisal Graphics, we offer a wide range of graphic design services to help your brand stand out. From custom logos and print design to modern web design and engaging social media graphics, our team delivers creative solutions tailored to your needs. Whether you're looking to build brand identity, enhance marketing materials, or boost your online presence, we have the expertise to bring your vision to life."
+        cardData={cardData}
+      />
+    </>
+  );
 }
 
-export default GraphicDesign
+export default GraphicDesign;
