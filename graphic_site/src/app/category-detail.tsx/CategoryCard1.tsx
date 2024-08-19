@@ -20,7 +20,7 @@ const CategoryCard1 = () => {
       id: '2',
       image: '/media/flex_printing.png',
       title: 'Flex Printing',
-      description: 'High-quality flex banners for any occasion. Custom designs that enhance visibility and make a lasting impression.',
+      description: 'High-quality flex banners and flyers for any occasion. Custom designs that enhance visibility and make a lasting impression.',
     },
     {
       id: '3',
