@@ -8,7 +8,7 @@ const GraphicDesign = () => {
       image: '/media/graphic.jpg',
       subtitle: 'The Art of Logo Design',
       title: 'Unique Logos Capturing Brand Essence',
-      description: 'Our logo designs are also crafted to be memorable, versatile, and timeless, perfectly capturing the essence of your brand. Make a lasting impression with a logo that truly represents your business.',
+      description: 'Our logo designs are crafted to be memorable, versatile, and timeless, perfectly capturing the essence of your brand. Make a lasting impression with a logo that truly represents your business.',
     },
     {
       image: '/media/graphic3.jpg',
