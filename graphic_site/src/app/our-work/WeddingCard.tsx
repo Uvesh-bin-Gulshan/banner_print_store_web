@@ -8,7 +8,7 @@ const WeddingCard = () => {
       image: 'https://dummyimage.com/720x400',
       subtitle: 'Elegant and Custom Designs',
       title: 'Tailored Wedding Invitations',
-      description: 'Create the perfect wedding invitation that reflects your unique love story. Our custom designs are tailored to match your wedding theme, ensuring your special day begins with an invitation that’s as memorable as the event itself.',
+      description: 'Create the perfect wedding invitation card that reflects your unique love story. Our custom designs are tailored to match your wedding theme, ensuring your special day begins with an invitation that’s as memorable as the event itself.',
     },
     {
       image: 'https://dummyimage.com/721x401',
