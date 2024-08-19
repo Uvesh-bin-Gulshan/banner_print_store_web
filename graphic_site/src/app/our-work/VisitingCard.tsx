@@ -41,4 +41,4 @@ const VisitingCard = () => {
   );
 }
 
-export default GraphicAndFlex;
+export default VisitingCard;
