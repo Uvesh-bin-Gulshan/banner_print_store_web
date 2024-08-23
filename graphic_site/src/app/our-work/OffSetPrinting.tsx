@@ -5,25 +5,25 @@ const OffSetPrinting = () => {
   
   const cardData = [
     {
-      image: 'https://dummyimage.com/720x400',
+      image: '/media/offset1.jpeg',
       subtitle: 'Professional Appearance',
       title: 'Make Every Communication Count',
       description: 'A well-crafted letterhead speaks volumes about your business. Our designs ensure that your brand stands out with every piece of correspondence, showcasing your professionalism and attention to detail.',
     },
     {
-      image: 'https://dummyimage.com/721x401',
+      image: '/media/offset2.jpeg',
       subtitle: 'Premium Quality Materials',
       title: 'Unmatched Quality for a Lasting Impact',
       description: 'We use only the highest quality paper and printing techniques to produce letterheads that not only look stunning but also feel exceptional. This ensures your brand is represented with the utmost care and quality.',
     },
     {
-      image: 'https://dummyimage.com/722x402',
+      image: '/media/offset3.jpeg',
       subtitle: 'Custom Design Tailored to You',
       title: 'Reflect Your Brand’s Unique Identity',
       description: 'Your brand is unique, and your letterhead should be too. We work closely with you to create a custom design that captures your brand’s essence, ensuring that every detail aligns with your company’s identity.',
     },
     {
-      image: 'https://dummyimage.com/722x402',
+      image: '/media/offset4.jpeg',
       subtitle: 'Versatile Sizing Options',
       title: 'Letterheads to Fit Every Need',
       description: 'Whether you need standard sizes or something more unique, our letterhead service offers a variety of options to meet all your business communication needs. From official letters to internal memos, we’ve got you covered.',
