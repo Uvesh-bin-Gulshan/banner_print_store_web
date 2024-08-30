@@ -9,10 +9,10 @@ const HomeOurWork = () => {
     const smallimages=[
     {src:'/media/images-1.jpeg',alt:'work'},
     {src:'/media/images-2.jpeg',alt:'work'},
-    {src:'/one.png',alt:'work'},
-    {src:'/three.png',alt:'work'},
-    {src:'/two.png',alt:'work'},
-    {src:'/one.png',alt:'work'},
+    {src:'/media/images-3.jpeg',alt:'work'},
+    {src:'/media/images-4.jpeg',alt:'work'},
+    {src:'/media/images-6.jpeg',alt:'work'},
+    {src:'/media/images-5.jpeg',alt:'work'},
    
 
     
