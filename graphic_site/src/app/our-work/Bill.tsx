@@ -5,7 +5,7 @@ const Bill = () => {
 
   const cardData = [
     {
-      image: 'https://www.example.com/bill1.jpg', // Replace with actual image URL
+      image: '/bill_book.png', // Replace with actual image URL
       subtitle: 'Custom Bill Printing',
       title: 'Tailored Bill Books for Your Business',
       description: 'Our custom bill books are designed to meet your specific business needs. Whether you require duplicate or triplicate formats, our high-quality printing ensures durability and clarity, making your billing process seamless and professional.',

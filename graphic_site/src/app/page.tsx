@@ -10,7 +10,7 @@ import CategoryCard3 from "./category-detail.tsx/CategoryCard3";
 import Carousel from "./_component/Carousel";
 import Contact from "./_component/Contact";
 import AboutIntro from "./about-contact-us/AboutIntro";
-import HeroOurWork from "./_component/HomeOurWork";
+import HomeOurWork from "./_component/HomeOurWork";
 import CategoryCard1 from "./category-detail.tsx/CategoryCard1";
 
 
@@ -22,7 +22,7 @@ export default function Home() {
   <CategoryCard1/>
   <CategoryCard2/>
   <CategoryCard3/>
-  <HeroOurWork/>
+  <HomeOurWork/>
   <Footer/>
 
   </>

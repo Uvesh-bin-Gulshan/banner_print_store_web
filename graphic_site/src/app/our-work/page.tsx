@@ -7,11 +7,11 @@ import GraphicDesign from './GraphicDesign'
 import FlexBanner from './FlexBanner'
 import OffSetPrinting from './OffSetPrinting'
 import ScreenPrinting from './ScreenPrinting'
-import VisitingCard from './WeddingCard'
 import LetterHead from './LetterHead'
 import FileAndBag from './FileAndBag'
 import Bill from './Bill'
 import WeddingCard from './WeddingCard'
+import VisitingCard from './VisitingCard'
 
 const Page = () => {
   return (

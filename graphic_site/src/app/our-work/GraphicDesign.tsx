@@ -23,7 +23,7 @@ const GraphicDesign = () => {
       description: 'Stay ahead of the curve with cutting-edge web design. From minimalism and dark mode to interactive elements, our web designs are modern, user-friendly, and optimized for a seamless experience.',
     },
     {
-      image: '/media/grpaphic1.jpg',
+      image: '/media/graphic4.png',
       subtitle: 'Engaging Social Media Graphics',
       title: 'Boost Your Online Presence',
       description: 'Capture attention and drive engagement with visually appealing social media graphics. Our designs are tailored to enhance your online presence and resonate with your audience across platforms.',

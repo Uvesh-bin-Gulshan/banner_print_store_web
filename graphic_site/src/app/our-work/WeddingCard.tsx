@@ -1,7 +1,7 @@
 import React from 'react';
 import WorkSection from '../_component/WorkSection';
 
-const WeddingCard = () => {
+const  WeddingCard= () => {
 
   const cardData = [
     {
@@ -11,19 +11,19 @@ const WeddingCard = () => {
       description: 'Create the perfect wedding invitation that reflects your unique love story. Our custom designs are tailored to match your wedding theme, ensuring your special day begins with an invitation that’s as memorable as the event itself.',
     },
     {
-      image: '/media/wedding2.jpeg',
+      image: '/media/wedding_card.png',
       subtitle: 'Premium Quality Printing',
       title: 'High-Quality Paper and Finishes',
       description: 'Make your invitations stand out with our premium paper options and exquisite finishes. From luxurious textures to elegant embossing and foil stamping, we offer the finest quality to create invitations that leave a lasting impression.',
     },
     {
-      image: '/media/wedding3.jpeg',
+      image: '/media/wedding3.jpg',
       subtitle: 'Complete Wedding Stationery',
       title: 'Coordinated Designs for All Wedding Needs',
       description: 'Beyond invitations, we offer a complete range of wedding stationery including RSVP cards, menus, thank you cards, and more. Our coordinated designs ensure a seamless look across all your wedding materials.',
     },
     {
-      image: '/media/wedding4.jpeg',
+      image: '/media/wedding4.jpg',
       subtitle: 'Affordable and Reliable',
       title: 'Beautiful Invitations Within Your Budget',
       description: 'At Faisal Graphics, we understand that every wedding is unique, and so is every budget. We offer beautiful, high-quality wedding invitations at competitive prices, ensuring you don’t have to compromise on your dream design.',
