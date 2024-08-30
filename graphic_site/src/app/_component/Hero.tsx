@@ -32,10 +32,10 @@ const Hero = () => {
             <div className="fixed-height md:mt-56 mt-28 absolute">
               <TypeAnimation
                 sequence={[
-                  "Crafting\nDesigning\nCreativite\nTomorrow",
+                  "Crafting\nDesigning\nCreativite\nTomorrow.",
                   
                   1000, 
-                  "Customer\nSatisfaction\nIs  Our  Prime\nConcern", 
+                  "Customer\nSatisfaction\nIs  Our  Prime\nConcern.", 
                   1000,
                   "", 
                   1000, 
