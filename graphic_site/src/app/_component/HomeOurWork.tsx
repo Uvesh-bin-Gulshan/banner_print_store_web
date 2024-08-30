@@ -7,8 +7,8 @@ const HomeOurWork = () => {
 
 
     const smallimages=[
-    {src:'/three.png',alt:'work'},
-    {src:'/two.png',alt:'work'},
+    {src:'/media/images-1.jpeg',alt:'work'},
+    {src:'/media/images-2.jpeg',alt:'work'},
     {src:'/one.png',alt:'work'},
     {src:'/three.png',alt:'work'},
     {src:'/two.png',alt:'work'},
