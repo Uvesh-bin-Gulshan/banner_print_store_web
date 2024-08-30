@@ -1,5 +1,6 @@
 import React from "react";
 import CardImage from "./CardImage";
+import Image from 'next/image';
 
 const HeroCards: React.FC = () => {
   const images = [
@@ -16,13 +17,16 @@ const HeroCards: React.FC = () => {
 
   return (
     <div className="text-black md:block lg:block 
-    m-[2%] mt-32 h-[100%] w-[90%] fixed-
+    m-[2%] mt-24 h-[100%] w-[90%] fixed-
 
     
     hidden  ">
+<Image src="/media/hero-image.png" width={500} height={500} alt="Hero Image" />
 
-<div className="md:-m-2 -m-1 flex flex-wrap  justify-end ">
-      <div className="flex flex-wrap  w-1/2">
+
+
+{/* <div className="md:-m-2 -m-1 flex flex-wrap  justify-end "> */}
+      {/* <div className="flex flex-wrap  w-1/2">
         <div className="md:p-2 p-1 w-1/2">
           <img alt="gallery" className="w-full object-cover
            h-full object-center block" src="/three.png"/>
@@ -54,7 +58,7 @@ const HeroCards: React.FC = () => {
           block" src="/three.png"/>
         </div>
       </div>
-    </div>
+    </div> */}
       {/* </div> */}
     </div>
   );

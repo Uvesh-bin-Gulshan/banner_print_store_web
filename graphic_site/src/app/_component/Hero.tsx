@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <>
       <div className="hero min-h-screen w-full bg-base-200  ">
-        <div className="bg-blue-900 via-blue-700 relative  to-blue-300 flex
+        <div className="bg-blue-800 via-blue-700 relative  to-blue-300 flex
          md:justify-between w-full h-full text-[#FAAF22] text-shadow-xl py-1 pl-10">
           <div className="my-12 mx-2 w-full h-full">
             <div className="fixed-height  mt-16">
@@ -18,7 +18,7 @@ const Hero = () => {
                   1000, 
                   "Faisal\nGraphics", 
                   2000, 
-                  "", 
+                  "ફૈઝલ​\nગ્રાફિક્સ", 
                   1000, 
                 ]}
                 wrapper="span"
@@ -29,7 +29,7 @@ const Hero = () => {
                 className="md:text-[100px] text-6xl font-gandalfel  "
               />
             </div>
-            <div className="fixed-height md:mt-56 mt-36 absolute">
+            <div className="fixed-height md:mt-56 mt-28 absolute">
               <TypeAnimation
                 sequence={[
                   "Crafting\nDesigning\nCreativite\nTomorrow",

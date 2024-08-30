@@ -37,6 +37,7 @@ const FlexBanner = () => {
       description="At Faisal Graphics, we specialize in creating vibrant and durable flex banners that grab attention and convey your message with clarity. Whether you’re promoting an event, showcasing a product, or enhancing your storefront, our flex banners are designed to make a strong visual impact. With custom designs tailored to your brand and top-quality printing that ensures longevity, our banners are the perfect solution for any promotional need."
       cardData={cardData}
     />
+    
 </>
 
 

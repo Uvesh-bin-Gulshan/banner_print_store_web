@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import CategoryLeft from '../_component/CategoryLeft';
 
-const CategoryCard1 = () => {
+const CategoryCard1= () => {
   const [hoverId, setHoverId] = useState("1");
 
   const handleHover = (id: string) => {
@@ -61,8 +61,17 @@ const CategoryCard1 = () => {
       id: '3',
       title: 'Offset Printing',
     },
-    {
-      id: '4',
-      title: 'Brochures',
-    },
+    // {
+    //   id: '4',
+    //   title: 'Brochures',
+    // }
    
+  
+  ];
+
+  return (
+<CategoryLeft cardData={cardData} cardDetail={cardDetail}/>
+
+  )
+};
+export default CategoryCard1;
