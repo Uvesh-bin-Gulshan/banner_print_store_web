@@ -18,7 +18,7 @@ const Hero = () => {
                   1000, 
                   "Faisal\nGraphics", 
                   2000, 
-                  "ફૈઝલ​\nગ્રાફિક્સ", 
+                  "ફૈસલ​\nગ્રાફિક્સ", 
                   1000, 
                 ]}
                 wrapper="span"
