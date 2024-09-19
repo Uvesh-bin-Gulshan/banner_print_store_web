@@ -2,6 +2,7 @@ import React from 'react';
 import WorkSection from '../_component/WorkSection';
 
 const GraphicDesign = () => {
+  
 
   const cardData = [
     {

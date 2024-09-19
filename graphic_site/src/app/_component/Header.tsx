@@ -5,9 +5,10 @@ import { MdCall } from 'react-icons/md'
 
 const Header = () => {
   return (
-    <header className="text-gray-600 bg-slate-100 body-font">
+    <header className="text-gray-600 bg-slate-200/50 body-font">
       <div className="container md:justify-between 
       flex py-2 flex-col md:flex-row items-center justify-end">
+        <h1 className='font-gandalfel text-3xl font-medium  text-black  ml-12'>Faisal Graphics</h1>
         <nav className="flex text-xs md:text-lg  md:justify-center 
         font-light uppercase px-2 items-center text-black md:ml-auto">
           <Link className="md:mr-10 ml-2 mr-2  hover:text-gray-900" href="/">
