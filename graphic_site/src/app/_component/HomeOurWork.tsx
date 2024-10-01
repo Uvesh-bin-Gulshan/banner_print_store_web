@@ -81,13 +81,14 @@ Crafting visual identities with precision and creativity. At Faisal Graphics, we
     </div>
 
     <div className="p-2 mt-14 w-full ">
-          <button className="flex mx-auto text-white bg-blue-800
-           border-0 py-2 px-4 focus:outline-none  hover:bg-[#F9AF23]
+          <button className="flex mx-auto text-white bg-gray-700
+           border-0 py-2 px-4 focus:outline-none  hover:bg-white hover:text-black hover:border-2 hover:border-gray-700
             rounded text-lg">
               
     <Link className='inline-flex text-md text-center items-center' href="../our-work">
     Know More  
      </Link>
+
               </button>
         </div>
   <div className='inline-flex bg-gray-900 rounded-lg text-center items-center text-blue-700 mt-12 ml-[45%] justify-center'>

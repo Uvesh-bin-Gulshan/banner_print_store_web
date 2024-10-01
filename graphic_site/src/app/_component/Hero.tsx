@@ -8,8 +8,7 @@ const Hero = () => {
   return (
     <>
       <div className="hero max-h-[100vh] w-full bg-base-200  ">
-        <div className="bg-white shadow-xl max-h-[
-        100vh] relative flex
+        <div className="bg-white shadow-xl min-h-screen relative  md:flex
          md:justify-between w-full h-full text-black text-shadow-xl py-1 pl-10">
           <div className=" mx-2 w-full h-full">
             {/* <div className="fixed-height  mt-16">
@@ -30,7 +29,7 @@ const Hero = () => {
                 className="md:text-[100px] text-6xl font-gandalfel  "
               />
             </div> */}
-            <div className="fixed-height md:mt-32  absolute">
+            <div className="fixed-height md:mt-[35vh] mt-[28vh]  absolute">
               <TypeAnimation
                 sequence={[
                   "Crafting \nDesigning \nCreative \nTomorrow",

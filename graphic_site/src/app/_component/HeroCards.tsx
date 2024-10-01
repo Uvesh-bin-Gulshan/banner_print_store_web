@@ -21,7 +21,7 @@ const HeroCards: React.FC = () => {
 
     
     hidden  ">
-<Image className="" src="/media/hero.png" width={700} height={400} alt="Hero Image" />
+<Image className="w-24 h-24" src="/media/hero.png" width={700} height={400} alt="Hero Image" />
 
 
 
