@@ -7,10 +7,11 @@ import "../globals.css";
 const Hero = () => {
   return (
     <>
-      <div className="hero max-h-[60vh] w-full bg-base-200  ">
-        <div className="bg-white shadow-xl max-h-[60vh] relative flex
+      <div className="hero max-h-[100vh] w-full bg-base-200  ">
+        <div className="bg-white shadow-xl max-h-[
+        100vh] relative flex
          md:justify-between w-full h-full text-black text-shadow-xl py-1 pl-10">
-          <div className="my-12 mx-2 w-full h-full">
+          <div className=" mx-2 w-full h-full">
             {/* <div className="fixed-height  mt-16">
               <TypeAnimation
                 sequence={[
@@ -29,13 +30,13 @@ const Hero = () => {
                 className="md:text-[100px] text-6xl font-gandalfel  "
               />
             </div> */}
-            <div className="fixed-height md:mt-16  absolute">
+            <div className="fixed-height md:mt-32  absolute">
               <TypeAnimation
                 sequence={[
-                  "Crafting Designing \nCreative Tomorrow",
+                  "Crafting \nDesigning \nCreative \nTomorrow",
                   
                   1000, 
-                  "Customer Satisfaction \nIs  Our  Prime Concern", 
+                  "Customer \nSatisfaction \nIs  Our  \nPrime Concern", 
                   1000,
                   "", 
                   1000, 
@@ -44,9 +45,9 @@ const Hero = () => {
                 cursor={false}
                 repeat={Infinity}
                 style={{  display: "inline-block",whiteSpace: "pre-wrap" }}
-                className=" lg:mt-4 mt-8 text-left py-8
+                className=" lg:mt-8 mt-8 text-left py-4
                 text-black/70 uppercase text-wider
-                font-extrabold w-full text-3xl text-justify md:text-5xl"
+                font-extrabold w-full text-3xl text-justify md:text-6xl"
               />
             </div>
           </div>

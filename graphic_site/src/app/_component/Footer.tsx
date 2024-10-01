@@ -4,27 +4,28 @@ import Image from "next/image";
 const Footer = () => {
   return (
 <>
-<footer className="text-gray-600 body-font ">
+<footer className="text-white body-font ">
   <div className="container text-white px-5 py-14 justify-between flex
-   mx-auto bg-blue-900 flex md:items-center
+   mx-auto bg-gray-600 flex md:items-center
     lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
     <div className="md:w-[40%] h-full flex-shrink-0 md:mx-0 mx-auto
      text-center md:text-center">
-      <a className="flex title-font font-medium items-center  justify-center text-white">
+      <a className="flex title-font font-medium items-center 
+       justify-center text-white">
         <Image
           className={`text-white ml-4    shadow-gray-400 `}
           src="/media/footer_logo.png"
           width={60}
           height={60}
           alt="/logo"/>
-        <span className=" md:text-6xl text-2xl text-[#FAAF22] text-center
+        <span className=" md:text-6xl text-2xl text-white text-center
          ml-4  font-gandalfel">Faisal Graphics</span>
       </a>
       {/* <p className="mt-3 ml-4 tracking-wider	 text-lg tracking-widest text-white font-medium text-gray-500">
         CUSTOMER SATISFACTION IS OUR PRIORITY</p> */}
        <div className="md:m-4 w-full 
        flex-grow flex  md:text-lg 
-       flex-wrap h-auto text-sm mt-4 bg-blue-700/50 p-4 text-left 
+       flex-wrap h-auto text-sm mt-4 bg-gray-700/40 p-4 text-left 
        tracking-widest rounded-lg shadow-lg">
   <h6 className="mb-2 font-semibold text-white">Contact Information</h6>
   <div className="w-full mb-2">
@@ -63,7 +64,7 @@ const Footer = () => {
             
     </div>
   </div>
-  <div className="bg-[#FAAF22] text-[#004AAD]">
+  <div className="bg-black text-white">
     <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
       <p className=" text-sm font-medium text-center sm:text-left">© 2024  — CompanyName
       </p>

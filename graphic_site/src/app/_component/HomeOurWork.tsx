@@ -90,7 +90,7 @@ Crafting visual identities with precision and creativity. At Faisal Graphics, we
      </Link>
               </button>
         </div>
-  <div className='inline-flex bg-blue-900 rounded-lg text-center items-center text-blue-700 mt-12 ml-[45%] justify-center'>
+  <div className='inline-flex bg-gray-900 rounded-lg text-center items-center text-blue-700 mt-12 ml-[45%] justify-center'>
   </div>
   </div>
 </section>

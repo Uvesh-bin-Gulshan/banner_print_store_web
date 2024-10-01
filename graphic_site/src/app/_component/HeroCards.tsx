@@ -17,11 +17,11 @@ const HeroCards: React.FC = () => {
 
   return (
     <div className="text-black md:block lg:block 
-    m-[2%] mt-10 fixed-
-object-cover 
+    m-[2%] mt-4 fixed-
+
     
     hidden  ">
-<Image className="rounded-lg shadow-xl" src="/media/hero-page.jpg" width={700} height={500} alt="Hero Image" />
+<Image className="" src="/media/hero.png" width={700} height={400} alt="Hero Image" />
 
 
 
