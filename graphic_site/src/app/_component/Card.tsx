@@ -3,15 +3,17 @@ import React from 'react'
  const Card = ({image,subtitle,title,description}:any) => {
   return (
 <>
-<div className="xl:w-1/4 md:w-1/2 p-4 ">
-      <div className="bg-slate-300/60 h-full p-6 rounded-lg">
-        <img className="h-48 rounded w-full object-cover 
+<div className=" w-full p-4 ">
+      <div className="bg-gray-300/60 md:h-full  md:p-6
+       p-2 h-full rounded-lg">
+        <img className="md:h-56 h-24 rounded w-full  object-cover 
         object-center mb-6" src={image} alt="content" />
         <h3 className="tracking-widest 
-         text-xs font-medium title-font">{subtitle}</h3>
-        <h2 className="text-lg text-[#1E3A8A] font-medium 
+         text-xs font-medium title-font text-sm md:text-xl">{subtitle}</h3>
+        <h2 className="md:text-lg text-sm text-black font-medium 
         title-font mb-4">{title}</h2>
-        <p className="leading-relaxed text-base ">{description}</p>
+        <p className="leading-relaxed text-base text-xs md:text-md">
+          {description}</p>
       </div>
     </div>
 

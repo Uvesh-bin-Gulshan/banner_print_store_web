@@ -4,9 +4,10 @@ import Image from "next/image";
 const Footer = () => {
   return (
 <>
-<footer className="text-white body-font ">
-  <div className="container text-white px-5 py-14 justify-between flex
-   mx-auto bg-gray-600 flex md:items-center
+<footer className="text-white body-font w-full bg-gray-600 ">
+  <div className="container text-white px-5 py-14 w-full
+   justify-between flex
+   mx-auto  flex md:items-center
     lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
     <div className="md:w-[40%] h-full flex-shrink-0 md:mx-0 mx-auto
      text-center md:text-center">

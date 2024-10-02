@@ -9,7 +9,9 @@ const Hero = () => {
     <>
       <div className="hero max-h-[100vh] w-full bg-base-200  ">
         <div className="bg-white shadow-xl min-h-screen relative  md:flex
-         md:justify-between w-full h-full text-black text-shadow-xl py-1 pl-10">
+         md:justify-between w-full
+          h-full text-black text-shadow-xl
+          py-1 pl-10">
           <div className=" mx-2 w-full h-full">
             {/* <div className="fixed-height  mt-16">
               <TypeAnimation
@@ -44,9 +46,9 @@ const Hero = () => {
                 cursor={false}
                 repeat={Infinity}
                 style={{  display: "inline-block",whiteSpace: "pre-wrap" }}
-                className=" lg:mt-8 mt-8 text-left py-4
+                className=" lg:mt-8 mt-8 text-left py-4 mx-4
                 text-black/70 uppercase text-wider
-                font-extrabold w-full text-3xl text-justify md:text-6xl"
+                font-extrabold w-full text-4xl text-justify md:text-6xl "
               />
             </div>
           </div>

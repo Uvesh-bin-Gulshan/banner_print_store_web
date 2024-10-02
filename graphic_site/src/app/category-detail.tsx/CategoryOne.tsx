@@ -16,7 +16,7 @@ const CategoryCard1 = () => {
         id: '1',
         image: '/media/graphic_design.png',
         title: 'Graphic Design',
-        description: 'Unique logos and stickers capturing brand essence. Memorable, versatile, and timeless designs tailored to represent your business effectively.',
+        description: 'Unique logos and stickers capturing brand essence.' 
       },
       {
         id: '2',
@@ -136,6 +136,7 @@ const CategoryCard1 = () => {
 
   return (
     <Category
+    className=""
       cardData={cardData}
       cardDetail={cardDetail}
       hoverId={hoverId}

@@ -19,9 +19,12 @@ export default function Home() {
   <>
   <Header/>
   <Hero/>
+  <div className="md:mt-36">
+
   <CategoryCard1/>
   <CategoryCard2/>
   <CategoryCard3/>
+  </div>
   <HomeOurWork/>
   <Footer/>
 

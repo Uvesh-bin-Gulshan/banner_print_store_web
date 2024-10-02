@@ -8,14 +8,14 @@ const WorkSection = ({ title, description, cardData }:any) => {
         <div className="flex flex-wrap  w-full mb-20">
           <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
             <h1 className="sm:text-3xl text-2xl
-             font-medium title-font mb-2 text-[#1E3A8A]">{title}</h1>
-            <div className="h-1 w-20 bg-[#FAAF22] rounded"></div>
+             font-medium title-font mb-2 text-gray-600">{title}</h1>
+            <div className="h-1 w-20 bg-black rounded"></div>
           </div>
           <p className="lg:w-1/2 w-full leading-relaxed text-gray-700">
             {description}
           </p>
         </div>
-        <div className="flex   flex-wrap -m-4 ">
+        <div className="grid   md:grid-cols-4 grid-cols-2 gap-2 ">
           {cardData.map((card:any, index:any) => (
             <Card
               key={index}
